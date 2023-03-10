@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling Mountain</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">logo</a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="parallax">
+        <h2 id="text">Mountain</h2>
+        <img src="monutain_01.png" id="m1">
+        <img src="trees_02.png" id="t2">
+        <img src="monutain_02.png" id="m2">
+        <img src="trees_01.png" id="t1">
+        <img src="man.png" id="man">
+        <img src="plants.png" id="plants">
+    </section>
+    
+    <section class="sec">
+        <h2>Parallax Mountain</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam numquam quod ipsum, beatae eligendi nemo aut sequi ratione harum, natus perferendis recusandae distinctio laboriosam, praesentium non suscipit aliquid vitae laudantium soluta. Distinctio laudantium hic voluptates veniam ipsum libero dignissimos qui saepe eos sequi harum consequuntur officia quos itaque possimus, nihil repellendus reprehenderit aliquam dolorem quia velit! Hic accusamus, natus placeat enim autem id aperiam nam debitis illum, nemo ipsam voluptatum. Enim doloremque beatae blanditiis aliquam. Ex distinctio id hic, sapiente facilis alias earum illum quisquam iusto odit. Dolor hic cum provident, perferendis blanditiis suscipit nam vel consequuntur qui architecto, vitae et doloribus eius repellendus quae cumque nisi non necessitatibus reiciendis? Sequi repudiandae accusamus labore exercitationem cumque dolores. Labore perferendis minus praesentium quaerat voluptatibus dolores, ducimus ratione neque sed alias reprehenderit deleniti quidem ipsam eum, ex dolore. Ex dignissimos quaerat est inventore et. Doloremque cum laudantium excepturi tenetur vitae facere, ipsam aliquam, ullam vero adipisci iure dolorem optio expedita laboriosam labore voluptatem. Officia eos odit, consequatur voluptatum similique dicta nisi nam voluptatem sunt exercitationem. Perspiciatis ab recusandae fugit quo dolor beatae voluptates quae error iste corrupti, iusto nulla rerum numquam quasi repellendus ut similique veritatis. Cupiditate, nobis ipsa? Laborum, pariatur dignissimos.<br><br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam numquam quod ipsum, beatae eligendi nemo aut sequi ratione harum, natus perferendis recusandae distinctio laboriosam, praesentium non suscipit aliquid vitae laudantium soluta. Distinctio laudantium hic voluptates veniam ipsum libero dignissimos qui saepe eos sequi harum consequuntur officia quos itaque possimus, nihil repellendus reprehenderit aliquam dolorem quia velit! Hic accusamus, natus placeat enim autem id aperiam nam debitis illum, nemo ipsam voluptatum. Enim doloremque beatae blanditiis aliquam. Ex distinctio id hic, sapiente facilis alias earum illum quisquam iusto odit. Dolor hic cum provident, perferendis blanditiis suscipit nam vel consequuntur qui architecto, vitae et doloribus eius repellendus quae cumque nisi non necessitatibus reiciendis? Sequi repudiandae accusamus labore exercitationem cumque dolores. Labore perferendis minus praesentium quaerat voluptatibus dolores, ducimus ratione neque sed alias reprehenderit deleniti quidem ipsam eum, ex dolore. Ex dignissimos quaerat est inventore et. Doloremque cum laudantium excepturi tenetur vitae facere, ipsam aliquam, ullam vero adipisci iure dolorem optio expedita laboriosam labore voluptatem. Officia eos odit, consequatur voluptatum similique dicta nisi nam voluptatem sunt exercitationem. Perspiciatis ab recusandae fugit quo dolor beatae voluptates quae error iste corrupti, iusto nulla rerum numquam quasi repellendus ut similique veritatis. Cupiditate, nobis ipsa? Laborum, pariatur dignissimos.<br><br>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam numquam quod ipsum, beatae eligendi nemo aut sequi ratione harum, natus perferendis recusandae distinctio laboriosam, praesentium non suscipit aliquid vitae laudantium soluta. Distinctio laudantium hic voluptates veniam ipsum libero dignissimos qui saepe eos sequi harum consequuntur officia quos itaque possimus, nihil repellendus reprehenderit aliquam dolorem quia velit! Hic accusamus, natus placeat enim autem id aperiam nam debitis illum, nemo ipsam voluptatum. Enim doloremque beatae blanditiis aliquam. Ex distinctio id hic, sapiente facilis alias earum illum quisquam iusto odit. Dolor hic cum provident, perferendis blanditiis suscipit nam vel consequuntur qui architecto, vitae et doloribus eius repellendus quae cumque nisi non necessitatibus reiciendis? Sequi repudiandae accusamus labore exercitationem cumque dolores. Labore perferendis minus praesentium quaerat voluptatibus dolores, ducimus ratione neque sed alias reprehenderit deleniti quidem ipsam eum, ex dolore. Ex dignissimos quaerat est inventore et. Doloremque cum laudantium excepturi tenetur vitae facere, ipsam aliquam, ullam vero adipisci iure dolorem optio expedita laboriosam labore voluptatem. Officia eos odit, consequatur voluptatum similique dicta nisi nam voluptatem sunt exercitationem. Perspiciatis ab recusandae fugit quo dolor beatae voluptates quae error iste corrupti, iusto nulla rerum numquam quasi repellendus ut similique veritatis. Cupiditate, nobis ipsa? Laborum, pariatur dignissimos.<br><br>
+        </p>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script>
+        gsap.from("#m1",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 100,
+        })
+        gsap.from("#m2",{
+            scrollTrigger : {
+                scrub: true
+            },
+            y: 50,
+        })
+        gsap.from("#t2",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: -50,
+        })
+        gsap.from("#t1",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: 50,
+        })
+        gsap.from("#man",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: -250,
+        })
+        gsap.from("#plants",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x: -50,
+        })
+        gsap.from("#text",{
+            scrollTrigger : {
+                scrub: true
+            },
+            x:  900,
+        })
+    </script>
+</body>
+</html> 
